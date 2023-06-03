@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="short cut icon" href="./flower.jpg" type="image./X-UA-Compatible">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div class="all">
+        <div class="box">
+            <input type="text" id="screen" />
+        </div>
+
+        <div id="button">
+    
+            <input type="button" value="clear" onclick="clearScreen('')">
+            <input type="button" value="del" onclick="del()">
+            <input type="button" value="%" onclick="onScreen('%')">
+            <input type="button" value="/"  onclick="onScreen('/')">
+            <br>
+            <input type="button" value="9" onclick="onScreen('9')">
+            <input type="button" value="8" onclick="onScreen('8')">
+            <input type="button" value="7" onclick="onScreen('7')">
+            <input type="button" value="*" onclick="onScreen('*')">
+
+            <br>
+            <input type="button" value="4" onclick="onScreen('4')">
+            <input type="button" value="5" onclick="onScreen('5')">
+            <input type="button" value="6" onclick="onScreen('6')">
+            <input type="button" value="-" onclick="onScreen('-')">
+            <br>
+            <input type="button" value="1" onclick="onScreen('1')">
+            <input type="button" value="2" onclick="onScreen('2')">
+            <input type="button" value="3" onclick="onScreen('3')">
+            <input type="button" value="+" onclick="onScreen('+')">
+            
+            <br>
+            <input type="button" value="0" onclick="onScreen('0')">
+            <input type="button" value="00" onclick="onScreen('00')">
+            <input type="button" value="." onclick="onScreen('.')">
+            <input type="button" value="ENTER" onclick="calculate()">
+
+        </div><br>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
